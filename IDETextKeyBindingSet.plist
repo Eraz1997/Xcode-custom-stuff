@@ -294,6 +294,8 @@
 	</dict>
 	<key>Customized</key>
 	<dict>
+		<key>Add line below and move cursor</key>
+		<string>moveToEndOfLine:, insertNewline:</string>
 		<key>Add line above</key>
 		<string>deleteToBeginningOfLine:, insertNewlineIgnoringFieldEditor:, yank:</string>
 		<key>Add line below</key>

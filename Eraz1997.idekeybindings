@@ -828,6 +828,48 @@
 				<key>Title</key>
 				<string>Run Playground</string>
 			</dict>
+			<dict>
+				<key>Action</key>
+				<string>continueREPLToCurrentLine:</string>
+				<key>Alternate</key>
+				<string>NO</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEPlaygroundEditor.CmdDefinition.RunToCurrentLine</string>
+				<key>Group</key>
+				<string>Editor Menu for Playground</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^$R</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Run Playground to Current Line</string>
+			</dict>
+			<dict>
+				<key>Action</key>
+				<string>executeToCurrentLineFromTop:</string>
+				<key>Alternate</key>
+				<string>YES</string>
+				<key>CommandGroupID</key>
+				<string>Xcode.IDEPlaygroundEditor.CmdDefinition.RunToCurrentLine</string>
+				<key>CommandID</key>
+				<string>Xcode.IDEPlaygroundEditor.CmdDefinition.RunToCurrentLineWithAlternate</string>
+				<key>Group</key>
+				<string>Editor Menu for Playground</string>
+				<key>GroupID</key>
+				<string>Xcode.IDEPegasusPlaygroundEditor.MenuDefinition.Editor</string>
+				<key>GroupedAlternate</key>
+				<string>NO</string>
+				<key>Keyboard Shortcut</key>
+				<string>^~$R</string>
+				<key>Navigation</key>
+				<string>NO</string>
+				<key>Title</key>
+				<string>Run Playground from Top to Current Line</string>
+			</dict>
 		</array>
 		<key>Version</key>
 		<integer>3</integer>
@@ -836,6 +878,11 @@
 	<dict>
 		<key>Key Bindings</key>
 		<dict>
+			<key>$</key>
+			<array>
+				<string>moveToEndOfLine:</string>
+				<string>insertNewline:</string>
+			</array>
 			<key>$@</key>
 			<array>
 				<string>deleteToBeginningOfLine:</string>
